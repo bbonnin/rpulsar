@@ -1,5 +1,7 @@
-# pulsar-r
+# rpulsar
 Apache Pulsar client for R
+
+> For more details about Apache Pulsar, [click here](https://pulsar.apache.org/en/)
 
 ## Use the package
 
