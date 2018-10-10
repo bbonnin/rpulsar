@@ -1,5 +1,5 @@
 # rpulsar
-Apache Pulsar client for R
+R client for Apache Pulsar
 
 > For more details about Apache Pulsar, [click here](https://pulsar.apache.org/en/)
 
