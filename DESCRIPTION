@@ -1,0 +1,16 @@
+Package: rpulsar
+Title: Apache Pulsar Client
+Version: 0.1.0
+Authors@R: person("Bruno", "Bonnin", email = "bbonnin@gmail.com", role = c("aut", "cre"))
+Description: Apache Pulsar Client.
+Depends: R (>= 3.5.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: websocket, R6, jsonlite
+Remotes: rstudio/websocket
