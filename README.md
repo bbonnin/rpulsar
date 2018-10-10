@@ -5,13 +5,6 @@ Apache Pulsar client for R
 
 ## Use the package
 
-* Install websocket package
-
-```
-library(devtools)
-install_github("rstudio/websocket")
-```
-
 * Install the package
 
 ```
