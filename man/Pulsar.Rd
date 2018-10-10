@@ -24,11 +24,11 @@ Pulsar class
 \examples{
 \dontrun{
 producer <- Pulsar$new("localhost:8080", "persistent/public/default/my-topic")
-producer.send("hello")
+producer$send("hello")
 
 onMsg = function(payload) {
   cat("Received string:", rawToChar(payload), "\\n")
-  return TRUE
+  TRUE
 }
 consumer <- Pulsar$new("localhost:8080", "persistent/public/default/my-topic/my-sub",
                        onMessageFct = onMsg)
